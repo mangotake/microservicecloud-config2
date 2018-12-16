@@ -1,4 +1,4 @@
-﻿spring:
+spring:
   profiles:
     active:
     - dev    #同一个配置文件里面以3个减号作为分隔符，实现了同一个文件不同的配置环境
