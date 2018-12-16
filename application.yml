@@ -1,0 +1,16 @@
+﻿spring:
+  profiles:
+    active:
+    - dev    #同一个配置文件里面以3个减号作为分隔符，实现了同一个文件不同的配置环境
+---
+spring:
+  profiles: dev  #开发环境
+  application:
+    name: microservicecloud-config-zl-dev
+---
+spring:
+  profiles: test #测试环境
+  application:
+    name: microservicecloud-config-zl-test
+    
+#请保存为UTF-8格式 
